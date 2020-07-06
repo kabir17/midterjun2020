@@ -1,16 +1,18 @@
 Please answer the below core-java Questions:
 
 What is programing language?
-A.
+A. It is a computer language.Computing device to perform specific tasks. The term programming language
+ usually refers to high-level languages, such as BASIC, C, C++, COBOL, Java, FORTRAN, Ada,etc.
 
 
 What jdk contains or composed of and define each components?
-A.
-
+A.Jdk comes with Jre,debug,java doc many other components.
+JRE contains libraries and software that our Java programs need to run.
+Debug is to find the error into the codes.
 
 
 What is IDE?
-A.
+A.IDE stands for Integrated development environment where we can write our java codes.
 
 
 
