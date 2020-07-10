@@ -1,5 +1,7 @@
 package math.problems;
 
+import java.util.Arrays;
+
 public class FindLowestDifference {
     public static void main(String[] args) {
         /*
@@ -11,8 +13,12 @@ public class FindLowestDifference {
         int [] array2 = {18,25,41,47,17,36,14,19};
 
 
+    }
+    public static int lowestDiff(int[] arr1, int[] arr2){
+        Arrays.sort(arr1);
+        Arrays.sort(arr2);
 
-
+        return 1;
     }
 
 }

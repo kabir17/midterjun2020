@@ -4,7 +4,7 @@ import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
-
+import design.Employee;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -56,15 +56,23 @@ public class JsonReaderUtil {
                 //you code start here
                 String empEmail = jsonobject.get("empEmail").toString();
                 System.out.println(empEmail);
+                String empName = jsonobject.get("empName").toString();
+                System.out.println(empName);
+                String salary = jsonobject.get("salary").toString();
+                System.out.println(salary);
+                String department = jsonobject.get("department").toString();
+                System.out.println(department);
+                System.out.println();
 
             }catch(Exception ex){
 
             }
         }
-        //Print to the console.
-        for(Employee entry:empList){
-            System.out.println(entry.getEmpEmail()+" "+entry.getEmpName()+" "+entry.getSalary()+" "+entry.getDepartment());
-        }
+       // Print to the console.
+//        for(Employee entry:empList){
+//            System.out.println(entry.getEmpEmail()+" "+entry.getEmpName()+" "+entry.getSalary()
+//                    +" "+entry.getDepartment());
+//        }
     }
 
 }

@@ -81,7 +81,7 @@ public class EmployeeInfo {
 	}
 	private static class DateConversion {
 
-		public DateConversion(Months months){}
+		public DateConversion(design.Months months){}
 		public static String convertDate(String date) {
 			String [] extractMonth = date.split(",");
 			String givenMonth = extractMonth[0];
@@ -91,7 +91,7 @@ public class EmployeeInfo {
 		}
 
 		public static int whichMonth(String givenMonth) {
-			Months months = Months.valueOf(givenMonth);
+			design.Months months = design.Months.valueOf(givenMonth);
 			int date = 0;
 			switch (months) {
 				case January:

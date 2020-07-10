@@ -8,7 +8,18 @@ public class Pattern {
 		 *
 		 */
 		
+		pattern(100);
 
-
+	}
+	public static void pattern(int num){
+		int s= num;
+		for(int i=1; i <10; i++){
+			int l = i * 10;
+			int j = (i * 10)/10;
+			for (int k=1; k > 0; k-= j){
+				s-=j;
+				System.out.println(s);
+			}
+		}
 	}
 }
